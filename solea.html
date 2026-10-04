@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Solea Palm Resort - 2-Day Photography & Activity Schedule</title>
+  <title>Solea Palm Resort - Rain-Resilient 2-Day Photography & Activity Schedule</title>
   <style>
     :root {
       --bg: #f8fafc;
@@ -22,6 +22,8 @@
       --badge-swim-text: #0369a1;
       --badge-neutral-bg: #f1f5f9;
       --badge-neutral-text: #475569;
+      --weather-bg: #f1f5f9;
+      --weather-text: #0369a1;
     }
 
     * {
@@ -40,8 +42,33 @@
     }
 
     .container {
-      max-width: 1100px;
+      max-width: 1200px;
       margin: 0 auto;
+    }
+
+    .forecast-banner {
+      background: #ffffff;
+      border: 1px solid #bfdbfe;
+      border-left: 4px solid #3b82f6;
+      border-radius: 6px;
+      padding: 10px 14px;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .forecast-title {
+      font-weight: 700;
+      color: #1e3a8a;
+      font-size: 12px;
+    }
+
+    .forecast-desc {
+      color: #475569;
+      font-size: 11px;
     }
 
     .table-card {
@@ -54,7 +81,7 @@
     }
 
     .table-header {
-      padding: 7px 12px;
+      padding: 8px 12px;
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 0.02em;
@@ -75,7 +102,6 @@
       color: var(--d2-header-text);
     }
 
-    /* Strict Tabular Styling (Maintains full table layout on mobile) */
     .table-wrap {
       width: 100%;
       overflow-x: auto;
@@ -84,7 +110,7 @@
 
     table {
       width: 100%;
-      min-width: 760px;
+      min-width: 820px;
       border-collapse: collapse;
       text-align: left;
     }
@@ -96,7 +122,7 @@
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.03em;
-      padding: 6px 10px;
+      padding: 7px 10px;
       border-bottom: 1px solid var(--border);
       white-space: nowrap;
     }
@@ -114,7 +140,7 @@
     }
 
     tbody td {
-      padding: 6px 10px;
+      padding: 7px 10px;
       vertical-align: middle;
     }
 
@@ -134,11 +160,11 @@
 
     .col-focus {
       color: #334155;
-      width: 210px;
+      width: 230px;
     }
 
     .col-outfit {
-      width: 125px;
+      width: 120px;
       white-space: nowrap;
     }
 
@@ -174,16 +200,33 @@
       font-size: 10px;
       color: var(--text-muted);
       font-weight: 400;
+      margin-top: 1px;
+    }
+
+    .rain-note {
+      display: block;
+      font-size: 9.5px;
+      color: #2563eb;
+      font-weight: 500;
+      margin-top: 2px;
     }
   </style>
 </head>
 <body>
   <div class="container">
 
+    <!-- WEATHER FORECAST STRATEGY BANNER -->
+    <div class="forecast-banner">
+      <div>
+        <div class="forecast-title">Forecast Strategy: October 10–11 (Passing Showers &amp; Overcast)</div>
+        <div class="forecast-desc">Cloud cover acts as a natural diffuser (zero squinting/harsh shadows). Covered breezeways, covered rooftop section, and rainfall pool swimming keep 100% of the plan active.</div>
+      </div>
+    </div>
+
     <!-- DAY 1 -->
     <div class="table-card">
       <div class="table-header d1-header">
-        <span>Day 1: Check-In, Recreation, Sunset Dinner &amp; Night Swim</span>
+        <span>Day 1 (Oct 10): Check-In, Dry Grounds, Covered Rooftop Dinner &amp; Warm Night Swim</span>
         <span>02:30 PM &ndash; 10:00 PM</span>
       </div>
       <div class="table-wrap">
@@ -192,7 +235,7 @@
             <tr>
               <th>Time (From - To)</th>
               <th>Location / Venue</th>
-              <th>Activity &amp; Focus</th>
+              <th>Activity &amp; Weather Strategy</th>
               <th>Outfit</th>
               <th>Photo Composition &amp; Angle</th>
             </tr>
@@ -201,84 +244,84 @@
             <tr>
               <td class="col-time">02:30 PM &ndash; 03:00 PM</td>
               <td class="col-venue">Solea Palm Main Lobby</td>
-              <td class="col-focus">Early Check-in &amp; Wing Navigation<span class="sub">Request pool view &amp; 12 PM checkout</span></td>
+              <td class="col-focus">Early Check-in &amp; Wing Navigation<span class="sub">Request pool view &amp; 12 PM checkout</span><span class="rain-note">Indoor lobby area (Weatherproof)</span></td>
               <td class="col-outfit"><span class="badge badge-neutral">Travel Casual</span></td>
               <td class="col-photo">Check-in counter arrival &amp; lobby staging</td>
             </tr>
             <tr>
               <td class="col-time">03:00 PM &ndash; 03:25 PM</td>
               <td class="col-venue">Solea Palm Room Interior</td>
-              <td class="col-focus">Untouched Room Staging Shoot<span class="sub">Natural daylight before unpacking</span></td>
+              <td class="col-focus">Untouched Room Staging Shoot<span class="sub">Natural diffused ambient daylight</span><span class="rain-note">Fully protected inside room</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
               <td class="col-photo">Eye-level wide shot of bed; round vanity mirror backlit portrait in hotel bedroom</td>
             </tr>
             <tr>
               <td class="col-time">03:25 PM &ndash; 03:45 PM</td>
               <td class="col-venue">Palm Private Balcony</td>
-              <td class="col-focus">Pool-View Architectural Shoot<span class="sub">Sunlit courtyard perspective</span></td>
+              <td class="col-focus">Pool-View Architectural Shoot<span class="sub">Sheltered under deep roof overhang</span><span class="rain-note">Soft overcast light eliminates glare on pool</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
               <td class="col-photo">45-degree downward angle framing upper body over black railing with turquoise Palm Pool below</td>
             </tr>
             <tr>
               <td class="col-time">03:45 PM &ndash; 04:10 PM</td>
               <td class="col-venue">Central Recreation Lawn</td>
-              <td class="col-focus">Giant Outdoor Chessboard<span class="sub">Strategy posing &amp; lawn game</span></td>
+              <td class="col-focus">Giant Outdoor Chessboard<span class="sub">Strategy posing &amp; lawn game</span><span class="rain-note">Shoot if dry; pivot to Game Room if pouring</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
               <td class="col-photo">Low-angle ground shot on turf; gripping waist-high King/Queen piece with palm trees behind</td>
             </tr>
             <tr>
               <td class="col-time">04:10 PM &ndash; 04:30 PM</td>
               <td class="col-venue">Wooden Lagoon Pier</td>
-              <td class="col-focus">Coastal Walkway Photo Circuit<span class="sub">Lagoon &amp; mangrove backdrop</span></td>
+              <td class="col-focus">Coastal Walkway Photo Circuit<span class="sub">Lagoon &amp; mangrove backdrop</span><span class="rain-note">Wet wood planks add mirror reflection depth</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
               <td class="col-photo">Symmetrical leading-lines perspective walking down center of wooden boardwalk bridge</td>
             </tr>
             <tr>
               <td class="col-time">04:30 PM &ndash; 04:45 PM</td>
               <td class="col-venue">White Sand Beachfront</td>
-              <td class="col-focus">Coastal Shoreline Lounging<span class="sub">Olango Channel panorama</span></td>
+              <td class="col-focus">Coastal Shoreline Lounging<span class="sub">Sheltered under thatched umbrella</span><span class="rain-note">Moody tidal channel backdrop</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
               <td class="col-photo">Reclining horizontally on woven beach lounger beneath thatched umbrella facing coastline</td>
             </tr>
             <tr>
               <td class="col-time">04:45 PM &ndash; 05:00 PM</td>
               <td class="col-venue">Indoor Game Room</td>
-              <td class="col-focus">Billiards &amp; Darts Shoot<span class="sub">Air-conditioned recreation break</span></td>
+              <td class="col-focus">Billiards &amp; Darts Shoot<span class="sub">Air-conditioned dry recreation</span><span class="rain-note">Full rain sanctuary &amp; moody lighting</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
-              <td class="col-photo">Low table-level shot looking down cue stick under green cone lamps in focused stance</td>
+              <td class="col-photo">Low table-level shot looking down cue stick under green cone lamps in focused billiards stance</td>
             </tr>
             <tr>
               <td class="col-time">05:00 PM &ndash; 06:30 PM</td>
               <td class="col-venue">Salt &amp; Sky Rooftop Lounge</td>
-              <td class="col-focus">Sunset &amp; À La Carte Dinner<span class="sub">Order pizza &amp; drinks at 5:00 PM</span></td>
+              <td class="col-focus">Sunset &amp; À La Carte Dinner<span class="sub">Order pizza &amp; drinks under covered awning</span><span class="rain-note">Moody twilight over CCLEX bridge view</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
               <td class="col-photo">Toast portrait facing sunset &amp; CCLEX bridge; 45-degree food spread; top-down pool night pan</td>
             </tr>
             <tr>
               <td class="col-time">06:30 PM &ndash; 06:45 PM</td>
               <td class="col-venue">Solea Palm Room</td>
-              <td class="col-focus">Pitstop: Change to Swimwear<span class="sub">Collect pool towel cards</span></td>
+              <td class="col-focus">Pitstop: Change to Swimwear<span class="sub">Collect pool towel cards</span><span class="rain-note">Hang dry clothes in closet</span></td>
               <td class="col-outfit"><span class="badge badge-swim">Swim A (Dark)</span></td>
               <td class="col-photo">Quick outfit change; store dry clothes in closet</td>
             </tr>
             <tr>
               <td class="col-time">06:45 PM &ndash; 07:45 PM</td>
               <td class="col-venue">Solea Palm Courtyard Pool</td>
-              <td class="col-focus">Night Swim Phase 1<span class="sub">Intimate wing pool with LED glow</span></td>
+              <td class="col-focus">Night Swim Phase 1<span class="sub">Intimate wing pool with LED glow</span><span class="rain-note">Open in rain; warm water feels refreshing</span></td>
               <td class="col-outfit"><span class="badge badge-swim">Swim A (Dark)</span></td>
               <td class="col-photo">Waist-up water shot on shallow ledge illuminated by submerged cyan pool floodlights</td>
             </tr>
             <tr>
               <td class="col-time">07:45 PM &ndash; 08:30 PM</td>
               <td class="col-venue">Rose &amp; Ritchie Main Pool</td>
-              <td class="col-focus">Night Swim Phase 2 (Lagoon)<span class="sub">Lagoon curves &amp; footbridges</span></td>
+              <td class="col-focus">Night Swim Phase 2 (Lagoon Pool)<span class="sub">Lagoon curves &amp; footbridges</span><span class="rain-note">Exchange towels back for cards before leaving</span></td>
               <td class="col-outfit"><span class="badge badge-swim">Swim A (Dark)</span></td>
               <td class="col-photo">Leaning against illuminated pool bar counter (exchange towels) with water ripples across frame</td>
             </tr>
             <tr>
               <td class="col-time">08:30 PM &ndash; 10:00 PM</td>
               <td class="col-venue">Solea Palm Room / Grounds</td>
-              <td class="col-focus">Hot Rainfall Shower &amp; Rest<span class="sub">De-chlorinate &amp; wind down early</span></td>
+              <td class="col-focus">Hot Rainfall Shower &amp; Rest<span class="sub">De-chlorinate &amp; wind down early</span><span class="rain-note">Rest for 6:00 AM dawn photography window</span></td>
               <td class="col-outfit"><span class="badge badge-neutral">Loungewear</span></td>
               <td class="col-photo">Long-exposure night shot of lit boardwalk pier; rest early for 6:00 AM dawn window</td>
             </tr>
@@ -290,7 +333,7 @@
     <!-- DAY 2 -->
     <div class="table-card">
       <div class="table-header d2-header">
-        <span>Day 2: Breakfast Buffet First, Cruiser Biking &amp; Full Waterpark</span>
+        <span>Day 2 (Oct 11): Dawn Balcony, Buffet First &amp; Full Aquatic Circuit</span>
         <span>06:00 AM &ndash; 12:00 PM</span>
       </div>
       <div class="table-wrap">
@@ -299,7 +342,7 @@
             <tr>
               <th>Time (From - To)</th>
               <th>Location / Venue</th>
-              <th>Activity &amp; Focus</th>
+              <th>Activity &amp; Weather Strategy</th>
               <th>Outfit</th>
               <th>Photo Composition &amp; Angle</th>
             </tr>
@@ -308,70 +351,70 @@
             <tr>
               <td class="col-time">06:00 AM &ndash; 06:30 AM</td>
               <td class="col-venue">Palm Private Balcony</td>
-              <td class="col-focus">Dawn Balcony Coffee Shoot<span class="sub">Soft sunrise directional glow</span></td>
+              <td class="col-focus">Dawn Balcony Coffee Shoot<span class="sub">Sheltered covered balcony</span><span class="rain-note">Misty calm dawn lighting on undisturbed pool</span></td>
               <td class="col-outfit"><span class="badge badge-neutral">Bathrobe</span></td>
               <td class="col-photo">Seated profile on balcony chair with coffee mug; unrippled turquoise Palm Pool framed below</td>
             </tr>
             <tr>
               <td class="col-time">06:30 AM &ndash; 07:45 AM</td>
               <td class="col-venue">Earth Restaurant</td>
-              <td class="col-focus">International Breakfast Buffet<span class="sub">Eat first before crowd arrives</span></td>
+              <td class="col-focus">International Breakfast Buffet<span class="sub">Eat first before morning crowd</span><span class="rain-note">100% indoors; window seats facing garden rain</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Plain Tee + Khaki</span></td>
               <td class="col-photo">Multi-plate flat-lay (danggit, sinangag, fruits) beside window; natural morning window portrait</td>
             </tr>
             <tr>
               <td class="col-time">07:45 AM &ndash; 08:15 AM</td>
-              <td class="col-venue">Resort Perimeter Paths</td>
-              <td class="col-focus">Cruiser Bicycle Ride<span class="sub">Post-buffet digestive morning ride</span></td>
+              <td class="col-venue">Resort Paths / Breezeways</td>
+              <td class="col-focus">Cruiser Bike Ride or Covered Tour<span class="sub">Digestive morning stroll</span><span class="rain-note">Ride if dry; use glass walkways if raining</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Plain Tee + Khaki</span></td>
               <td class="col-photo">Straddling retro cruiser bike along paved palm avenue with one foot down framing palm canopy</td>
             </tr>
             <tr>
               <td class="col-time">08:15 AM &ndash; 09:00 AM</td>
               <td class="col-venue">Kim &amp; Kath Infinity Pools</td>
-              <td class="col-focus">Serene Morning Infinity Swim<span class="sub">Smooth, glass-like pool surface</span></td>
+              <td class="col-focus">Serene Morning Infinity Swim<span class="sub">Switch to swimwear once for all water sports</span><span class="rain-note">Overcast creates mirror reflections on infinity edge</span></td>
               <td class="col-outfit"><span class="badge badge-swim">Swim B (Bright)</span></td>
               <td class="col-photo">Low-angle water-level rear shot at vanishing infinity edge merging with Olango Channel</td>
             </tr>
             <tr>
               <td class="col-time">09:00 AM &ndash; 09:30 AM</td>
               <td class="col-venue">Lagoon Watersports Dock</td>
-              <td class="col-focus">Lagoon Kayaking Session<span class="sub">Shoreline channel paddling</span></td>
+              <td class="col-focus">Lagoon Kayaking Session<span class="sub">Shoreline channel paddling</span><span class="rain-note">Open in rain; pauses only during active thunder</span></td>
               <td class="col-outfit"><span class="badge badge-swim">Swim B (Bright)</span></td>
               <td class="col-photo">Mid-stroke action paddle on calm lagoon channel; scenic drift pose with paddle resting on hull</td>
             </tr>
             <tr>
               <td class="col-time">09:30 AM &ndash; 10:00 AM</td>
               <td class="col-venue">Waterpark Slide Tower &amp; Aqua Play</td>
-              <td class="col-focus">High-Speed Slides &amp; Splash Pad<span class="sub">Flume slides &amp; dumping bucket</span></td>
+              <td class="col-focus">High-Speed Slides &amp; Splash Pad<span class="sub">Flume slides &amp; dumping bucket</span><span class="rain-note">Rainwater speeds up the slide flumes</span></td>
               <td class="col-outfit"><span class="badge badge-swim">Swim B (Bright)</span></td>
               <td class="col-photo">Fast-shutter burst of water splashdown on exit; action capture standing under dumping bucket</td>
             </tr>
             <tr>
               <td class="col-time">10:00 AM &ndash; 10:45 AM</td>
               <td class="col-venue">Inflatable Aqua Park</td>
-              <td class="col-focus">Inflatable Obstacle Course Run<span class="sub">High-energy aquatic obstacle run</span></td>
+              <td class="col-focus">Inflatable Obstacle Course Run<span class="sub">Lagoon floating course</span><span class="rain-note">Mandatory life vest; waterproof pouch essential</span></td>
               <td class="col-outfit"><span class="badge badge-swim">Swim B (Bright)</span></td>
               <td class="col-photo">Victory pose with arms raised atop highest peak of inflatable obstacle pyramid over lagoon</td>
             </tr>
             <tr>
               <td class="col-time">10:45 AM &ndash; 11:35 AM</td>
               <td class="col-venue">Solea Palm Room</td>
-              <td class="col-focus">Hot Rainfall Shower &amp; Packing<span class="sub">Pack wet gear &amp; luggage reset</span></td>
+              <td class="col-focus">Hot Rainfall Shower &amp; Packing<span class="sub">Pack wet gear &amp; luggage reset</span><span class="rain-note">Seal wet swimsuits into waterproof dry bags</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
               <td class="col-photo">Pack soaked swimsuits into sealed dry bags; organize luggage and prep room for check-out</td>
             </tr>
             <tr>
               <td class="col-time">11:35 AM &ndash; 11:45 AM</td>
               <td class="col-venue">Palm Private Balcony</td>
-              <td class="col-focus">High-Noon Final Balcony Pan<span class="sub">Direct overhead solar vibrancy</span></td>
+              <td class="col-focus">High-Noon Final Balcony Pan<span class="sub">Direct overhead daylight pan</span><span class="rain-note">Sheltered under balcony roof</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
               <td class="col-photo">10-second wide panning video of deep aquamarine pool floor; final sunlit departure portrait</td>
             </tr>
             <tr>
               <td class="col-time">11:45 AM &ndash; 12:00 PM</td>
               <td class="col-venue">Solea Palm Reception Desk</td>
-              <td class="col-focus">Official Front Desk Check-Out<span class="sub">Deposit return &amp; departure</span></td>
+              <td class="col-focus">Official Front Desk Check-Out<span class="sub">Deposit return &amp; departure</span><span class="rain-note">Indoor lobby area</span></td>
               <td class="col-outfit"><span class="badge badge-dry">Floral + Khaki</span></td>
               <td class="col-photo">Settle rooftop dinner folio, return key cards and towel cards, claim security deposit refund</td>
             </tr>
